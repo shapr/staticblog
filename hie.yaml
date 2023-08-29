@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:staticblog"
+    - path: "./test"
+      component: "test:staticblog-tests"
+    - path: "./app"
+      component: "exe:staticblog"
